@@ -159,7 +159,7 @@
               <div class="side-nav-scrollable-area-footer-info">
                 <p>{{ footerMsg }}</p>
                 <!-- Not translated -->
-                <p>© {{ copyrightYear }} Learning Equality</p>
+                <p>© {{ copyrightYear }} Laroc Learning</p>
                 <p>
                   <KButton
                     ref="privacyLink"
@@ -467,17 +467,17 @@
       navigationLabel: {
         message: 'Main user menu',
         context:
-          'Refers to the main side navigation bar. The message is providing additional context to the screen-reader users, but is not visible in the Kolibri UI.',
+          'Refers to the main side navigation bar. The message is providing additional context to the screen-reader users, but is not visible in the Laroc UI.',
       },
       closeNav: {
         message: 'Close navigation',
         context:
-          "This message is providing additional context to the screen-reader users, but is not visible in the Kolibri UI.\n\nIn this case the screen-reader will announce the message when user navigates to the 'X' button with the keyboard, to indicate that it allows them to close the sidebar navigation menu. (Note that the sidebar needs to have been previously opened)",
+          "This message is providing additional context to the screen-reader users, but is not visible in the Laroc Learning UI.\n\nIn this case the screen-reader will announce the message when user navigates to the 'X' button with the keyboard, to indicate that it allows them to close the sidebar navigation menu. (Note that the sidebar needs to have been previously opened)",
       },
       poweredBy: {
-        message: 'Kolibri {version}',
+        message: 'Laroc Learning {version}',
         context:
-          'Indicates the current version of Kolibri.\n\nFor languages with non-latin scripts, Kolibri should be transcribed phonetically into the target language, similar to a person\'s name. It should not be translated as "hummingbird".',
+          'Indicates the current version of Laroc Learning.\n\nFor languages with non-latin scripts, Laroc Learning should be transcribed phonetically into the target language, similar to a person\'s name. It should not be translated as "hummingbird".',
       },
       deviceStatus: {
         message: 'Device status',

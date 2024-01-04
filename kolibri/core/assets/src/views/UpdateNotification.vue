@@ -95,39 +95,39 @@
       // The strings below are not actually used in the appplication code.
       // They are included simply to get the strings translated for later use. We should do
       // this differently in the longer-term to ensure that we have broader language support.
-      /* eslint-disable kolibri/vue-no-unused-translations */
+      /* eslint-disable Laroc Learning/vue-no-unused-translations */
       upgradeHeader: {
         message: 'Upgrade available',
-        context: 'Indicates that a new version of Kolibri is available.',
+        context: 'Indicates that a new version of Laroc Learning is available.',
       },
       upgradeHeaderImportant: {
         message: 'Important upgrade available',
-        context: 'Indicates that an important new version of Kolibri is available.',
+        context: 'Indicates that an important new version of Laroc Learning is available.',
       },
       upgradeMessageGeneric: {
-        message: 'A new version of Kolibri is available.',
-        context: 'Notification indicating a new version of Kolibri is available.',
+        message: 'A new version of Laroc Learning is available.',
+        context: 'Notification indicating a new version of Laroc Learning is available.',
       },
       upgradeMessageImportant: {
-        message: 'We have released an important update with fixes to this version of Kolibri.',
-        context: 'Notification indicating an important new version of Kolibri is available.',
+        message: 'We have released an important update with fixes to this version of Laroc Learning.',
+        context: 'Notification indicating an important new version of Laroc Learning is available.',
       },
       upgradeMessage_0_16_0: {
         message:
-          'Kolibri version 0.16.0 is available! New features include practice quizzes, resource syncing across coach and learner devices, and much more.',
-        context: 'Notification indicating a new version of Kolibri is available.',
+          'Laroc Learning version 0.16.0 is available! New features include practice quizzes, resource syncing across coach and learner devices, and much more.',
+        context: 'Notification indicating a new version of Laroc Learning is available.',
       },
       upgradeDownload: {
         message: 'Download it here',
         context:
-          'When an upgrade of Kolibri is made available, this button allows the user to download it.',
+          'When an upgrade of Laroc Learning is made available, this button allows the user to download it.',
       },
       upgradeLearnAndDownload: {
         message: 'Learn more and download it here',
         context:
-          'Link which invites the user to find out more about a new version of Kolibri and shows them where to download it.',
+          'Link which invites the user to find out more about a new version of Laroc Learning and shows them where to download it.',
       },
-      /* eslint-enable kolibri/vue-no-unused-translations */
+      /* eslint-enable Laroc Learning/vue-no-unused-translations */
     },
   };
 

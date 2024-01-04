@@ -31,12 +31,12 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   },
   closeAction: {
     message: 'Close',
-    context: 'Closes some element in Kolibri, like a window.',
+    context: 'Closes some element in Laroc, like a window.',
   },
   confirmAction: {
     message: 'Confirm',
     context:
-      "The 'Confirm' button will display when a user attempts to carry out a specific action in Kolibri that needs confirmation. For example, they will be asked to confirm if they want to assign a coach to a class.",
+      "The 'Confirm' button will display when a user attempts to carry out a specific action in Laroc that needs confirmation. For example, they will be asked to confirm if they want to assign a coach to a class.",
   },
   continueAction: {
     message: 'Continue',
@@ -50,32 +50,32 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   deleteAction: {
     message: 'Delete',
     context:
-      'Used to delete an element from Kolibri.\n\nFor example, an admin can delete a user from a facility if they are no longer a user there.',
+      'Used to delete an element from Laroc Learning.\n\nFor example, an admin can delete a user from a facility if they are no longer a user there.',
   },
   editAction: {
     message: 'Edit',
     context:
-      "Edit allows users to change some element in Kolibri.\n\nFor example, a coach can use 'Edit' to rename their class or an admin can edit the name of their facility.",
+      "Edit allows users to change some element in Laroc Learning.\n\nFor example, a coach can use 'Edit' to rename their class or an admin can edit the name of their facility.",
   },
   editDetailsAction: {
     message: 'Edit details',
     context:
-      "'Edit details' changes a set of information in Kolibri.\n\nFor example, in a list of users, selecting OPTIONS > 'Edit details' allows a user to edit other users' information like their name, username or type.",
+      "'Edit details' changes a set of information in Laroc.\n\nFor example, in a list of users, selecting OPTIONS > 'Edit details' allows a user to edit other users' information like their name, username or type.",
   },
   filter: {
     message: 'filter',
     context:
-      'The filter functionality allows users to find elements in Kolibri more efficiently. For example, in a list of users the filter can be used to view users by permissions, user type or facility.',
+      'The filter functionality allows users to find elements in Laroc more efficiently. For example, in a list of users the filter can be used to view users by permissions, user type or facility.',
   },
   finishAction: {
     message: 'Finish',
     context:
-      "'Finish' in general completes an action that a user may be carrying out in Kolibri.\n\nFor example, when a user creates an account, once they've completed all the information they would select the 'FINISH' button.",
+      "'Finish' in general completes an action that a user may be carrying out in Laroc.\n\nFor example, when a user creates an account, once they've completed all the information they would select the 'FINISH' button.",
   },
   goBackAction: {
     message: 'Go back',
     context:
-      "Indicates going back to a previous step.\n\nFor example, when a user creates a quiz in Kolibri using the quiz builder they can either 'CONTINUE' to the next phase of the builder or 'GO BACK'.\n\nIf you go back you exit the quiz builder and loose the resource selection.",
+      "Indicates going back to a previous step.\n\nFor example, when a user creates a quiz in Laroc using the quiz builder they can either 'CONTINUE' to the next phase of the builder or 'GO BACK'.\n\nIf you go back you exit the quiz builder and loose the resource selection.",
   },
   backAction: {
     message: 'Back',
@@ -85,11 +85,11 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   importAction: {
     message: 'Import',
     context:
-      'Indicates importing something into Kolibri, depending on the context can be a list of lessons, a single user, etc.',
+      'Indicates importing something into Laroc, depending on the context can be a list of lessons, a single user, etc.',
   },
   registerAction: {
     message: 'Register',
-    context: 'Register a facility to the Kolibri Data Portal',
+    context: 'Register a facility to the Laroc Data Portal',
   },
   manageSyncAction: {
     message: 'Manage sync schedule',
@@ -117,17 +117,17 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   saveAction: {
     message: 'Save',
     context:
-      'Button which allows a user to save a specific state in Kolibri.\n\nFor example, if a coach creates a new class they need to enter a name for the class and save that class name to continue.',
+      'Button which allows a user to save a specific state in KLaroc\n\nFor example, if a coach creates a new class they need to enter a name for the class and save that class name to continue.',
   },
   saveChangesAction: {
     message: 'Save changes',
     context:
-      'When a user edits an entity en Kolibri that changes some piece of information about it, they need to save those changes.',
+      'When a user edits an entity en Laroc that changes some piece of information about it, they need to save those changes.',
   },
   selectAllOnPageAction: {
     message: 'Select all on page',
     context:
-      "If admins have imported resources on one Kolibri device, and want to make them available on another computer where Kolibri is installed, they can export them either in full, or make a selection of the resources to be exported.\n\nThe 'Select all on page' option allows admins to export all the resources in bulk that are on that page rather than individually.",
+      "If admins have imported resources on one Laroc device, and want to make them available on another computer where Laroc is installed, they can export them either in full, or make a selection of the resources to be exported.\n\nThe 'Select all on page' option allows admins to export all the resources in bulk that are on that page rather than individually.",
   },
   showAction: {
     message: 'Show',
@@ -156,7 +156,7 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   updateAction: {
     message: 'Update',
     context:
-      "If a user account has been created prior to version 0.13 of Kolibri, the user will see a notification that they can update their profile to provide their birth year and gender. \n\nThe 'UPDATE' button allows them to provide this new information if they choose to do so.",
+      "If a user account has been created prior to version 0.13 of Laroc, the user will see a notification that they can update their profile to provide their birth year and gender. \n\nThe 'UPDATE' button allows them to provide this new information if they choose to do so.",
   },
   viewAll: {
     message: 'View all',
@@ -165,12 +165,12 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   viewAction: {
     message: 'View',
     context:
-      'This text appears in several places in Kolibri where users can see some specific information. For example, they can view changes when a public channel is updated, or view a list of notifications about quizzes.',
+      'This text appears in several places in Laroc where users can see some specific information. For example, they can view changes when a public channel is updated, or view a list of notifications about quizzes.',
   },
   viewTasksAction: {
     message: 'View tasks',
     context:
-      "In the Kolibri Task Manager dashboard admins can view resource management tasks (import, export, deletion, update, etc.) and observe their progress.\n\nSelecting 'View task' will display more detail about the management task.",
+      "In the Laroc Task Manager dashboard admins can view resource management tasks (import, export, deletion, update, etc.) and observe their progress.\n\nSelecting 'View task' will display more detail about the management task.",
   },
   removeFromBookmarks: {
     message: 'Remove from bookmarks',
@@ -234,12 +234,12 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   channelsLabel: {
     message: 'Channels',
     context:
-      'Channels are collections of educational resources (video, audio, document files or interactive apps) prepared and organized by the channel curator for their use in Kolibri.\n\nA learner will see a set of channels available to them when they first open Kolibri.',
+      'Channels are collections of educational resources (video, audio, document files or interactive apps) prepared and organized by the channel curator for their use in Laroc.\n\nA learner will see a set of channels available to them when they first open Kolibri.',
   },
   channelLabel: {
     message: 'Channel',
     context:
-      'Channels are collections of educational resources (video, audio, document files or interactive apps) prepared and organized by the channel curator for their use in Kolibri.',
+      'Channels are collections of educational resources (video, audio, document files or interactive apps) prepared and organized by the channel curator for their use in Laroc.',
   },
   classCoachLabel: {
     message: 'Class coach',
@@ -253,12 +253,12 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   classesLabel: {
     message: 'Classes',
     context:
-      'In the classes section of Kolibri users can view the list of all the classes in their facility, with the number of enrolled users for each class, and the coaches assigned.',
+      'In the classes section of Laroc users can view the list of all the classes in their facility, with the number of enrolled users for each class, and the coaches assigned.',
   },
   coachLabel: {
     message: 'Coach',
     context:
-      'A coach is a specific type of user in Kolibri who can manage  classes and learners. A coach can be either a class coach or a facility coach.',
+      'A coach is a specific type of user in Laroc who can manage  classes and learners. A coach can be either a class coach or a facility coach.',
   },
   coachesLabel: {
     message: 'Coaches',
@@ -277,12 +277,12 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   deviceNameLabel: {
     message: 'Device name',
     context:
-      'The device name indicates the name of the device where Kolibri is running. Accessed in the Device > Info section.',
+      'The device name indicates the name of the device where Laroc is running. Accessed in the Device > Info section.',
   },
   devicePermissionsLabel: {
     message: 'Device permissions',
     context:
-      'A user can grant permission to another user to manage channels and resources in Kolibri, that is to import, export and delete them from the device used.',
+      'A user can grant permission to another user to manage channels and resources in Laroc, that is to import, export and delete them from the device used.',
   },
   facilityCoachLabel: {
     message: 'Facility coach',
@@ -296,7 +296,7 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   facilitiesLabel: {
     message: 'Facilities',
     context:
-      'Facilities are the centers of education which are managed in Kolibri, such as a school. To manage facilities on a given device, a user must have super admin permissions.',
+      'Facilities are the centers of education which are managed in Laroc, such as a school. To manage facilities on a given device, a user must have super admin permissions.',
   },
   facilityName: {
     message: 'Facility name',
@@ -319,7 +319,7 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   genderLabel: {
     message: 'Gender',
     context:
-      "Gender is an option which a user can select in Kolibri when they create another user.\n\nGender can be either 'Female', 'Male' or 'Not specified'.",
+      "Gender is an option which a user can select in Laroc when they create another user.\n\nGender can be either 'Female', 'Male' or 'Not specified'.",
   },
   homeLabel: {
     message: 'Home',
@@ -341,14 +341,14 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
       "Indicates a task such as a sync is in progress. A lesson or class could also be in progress if the learner hasn't finished it yet.",
   },
   kolibriLabel: {
-    message: 'Kolibri',
+    message: 'Laroc Learning',
     context:
-      'This proper noun is the name of the learning platform, and is pronounced ko-lee-bree (/kolibɹi/). For languages with non-latin scripts, the word should be transcribed phonetically into the target language, similar to a person\'s name. It should not be translated as "hummingbird".',
+      'This proper noun is the name of the learning platform, and is pronounced Lah-rok.',
   },
   languageLabel: {
     message: 'Language',
     context:
-      'Refers to the language that is used in a resource or in Kolibri. For example, users can filter learning resources by language.',
+      'Refers to the language that is used in a resource or in Laroc. For example, users can filter learning resources by language.',
   },
   learnerLabel: {
     message: 'Learner',
@@ -371,7 +371,7 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   libraryLabel: {
     message: 'Library',
     context:
-      "The 'Library' section displays channels available on Kolibri server, and allows learners to browse, explore and filter topics and resources on their own.",
+      "The 'Library' section displays channels available on Laroc server, and allows learners to browse, explore and filter topics and resources on their own.",
   },
   loadingLabel: {
     message: 'Loading…',
@@ -384,7 +384,7 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   },
   nameLabel: {
     message: 'Name',
-    context: 'Might indicate the name of a resource in Kolibri.',
+    context: 'Might indicate the name of a resource in Laroc.',
   },
   noUsersExistLabel: {
     message: 'No users exist',
@@ -401,7 +401,7 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   },
   passwordLabel: {
     message: 'Password',
-    context: "'Password' is a required field when you create an account as a user on Kolibri.",
+    context: "'Password' is a required field when you create an account as a user on Laroc.",
   },
   profileLabel: {
     message: 'Profile',
@@ -410,7 +410,7 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   progressLabel: {
     message: 'Progress',
     context:
-      "A coach can view learner progress in Kolibri.\n\nFor example, in the Coach > Reports section under the 'Progress' column they can see how many learners have started a lesson, or if a learner needs help.\n",
+      "A coach can view learner progress in Laroc.\n\nFor example, in the Coach > Reports section under the 'Progress' column they can see how many learners have started a lesson, or if a learner needs help.\n",
   },
   questionNumberLabel: {
     message: 'Question { questionNumber, number }',
@@ -438,7 +438,7 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   },
   searchLabel: {
     message: 'Search',
-    context: 'Test used to indicate the Kolibri search field.',
+    context: 'Test used to indicate the Laroc search field.',
   },
   searchForUser: {
     message: 'Search for a user...',
@@ -465,7 +465,7 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   signInLabel: {
     message: 'Sign in',
     context:
-      "Users select the 'SIGN IN' button if they already have an account and a username in Kolibri to get access to the platform.",
+      "Users select the 'SIGN IN' button if they already have an account and a username in Laroc to get access to the platform.",
   },
   superAdminLabel: {
     message: 'Super admin',
@@ -485,12 +485,12 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   cookiePolicy: {
     message: 'Cookie policy',
     context:
-      'The "Cookie policy" link displays on the \'cookie notification\' banner and on the left navigation bar.\n\nIt contains information about usage of cookies within online Kolibri instances. It is also used as a title and heading on the page that describes this policy.',
+      'The "Cookie policy" link displays on the \'cookie notification\' banner and on the left navigation bar.\n\nIt contains information about usage of cookies within online Laroc instances. It is also used as a title and heading on the page that describes this policy.',
   },
   userTypeLabel: {
     message: 'User type',
     context:
-      "'User type' is used to define what kind of permissions the user has in Kolibri.\n\n'User type' can be either Learner, Coach, Admin or Super admin.",
+      "'User type' is used to define what kind of permissions the user has in Laroc.\n\n'User type' can be either Learner, Coach, Admin or Super admin.",
   },
   usernameLabel: {
     message: 'Username',
@@ -499,7 +499,7 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   usersLabel: {
     message: 'Users',
     context:
-      'A user is any person who has access to a facility in Kolibri. There are  four main types of users in Kolibri: Learners, Coaches, Admins and Super admins.',
+      'A user is any person who has access to a facility in Laroc. There are  four main types of users in Laroc: Learners, Coaches, Admins and Super admins.',
   },
   uncountedAdditionalResults: {
     message: 'More than { num, number } results',
@@ -507,7 +507,7 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   viewMoreAction: {
     message: 'View more',
     context:
-      'This button appears in Kolibri to indicate to users that there are more results available when they search for resources, for example.',
+      'This button appears in Laroc to indicate to users that there are more results available when they search for resources, for example.',
   },
   viewLessAction: {
     message: 'View less',
@@ -517,7 +517,7 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   copies: {
     message: '{ num, number} locations',
     context:
-      'Some Kolibri resources may be duplicated in different topics or channels.\n\nSearch results will indicate when a resource is duplicated, and learners can click on the "...locations" link to discover the details for each location.',
+      'Some Laroc resources may be duplicated in different topics or channels.\n\nSearch results will indicate when a resource is duplicated, and learners can click on the "...locations" link to discover the details for each location.',
   },
   viewInformation: {
     message: 'View information',
@@ -851,12 +851,12 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   guides: {
     message: 'Guides',
     context:
-      'Category label in the Kolibri resources library; refers to any guide-type material for teacher professional development.',
+      'Category label in the Laroc resources library; refers to any guide-type material for teacher professional development.',
   },
   lessonPlans: {
     message: 'Lesson plans',
     context:
-      'Category label in the Kolibri resources library; refers to lesson planning materials for teachers.',
+      'Category label in the Laroc resources library; refers to lesson planning materials for teachers.',
   },
 
   uncategorized: {
@@ -867,12 +867,12 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   // Resources Needed Categories = {
   forBeginners: {
     message: 'For beginners',
-    context: 'Filter option and a label for the resources in the Kolibri Library.',
+    context: 'Filter option and a label for the resources in the Laroc Library.',
   },
   toUseWithPeers: {
     message: 'To use with peers',
     context:
-      "'Peers' in this context refers to classmates or other learners who are interacting with Kolibri.",
+      "'Peers' in this context refers to classmates or other learners who are interacting with Laroc.",
   },
   toUseWithTeachers: {
     message: 'To use with teachers',
@@ -1090,7 +1090,7 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   invalidCredentialsError: {
     message: 'Incorrect username or password',
     context:
-      "Error message a user sees if they've used the wrong username or password when they sign in to Kolibri.",
+      "Error message a user sees if they've used the wrong username or password when they sign in to Laroc.",
   },
 
   // Formatting
@@ -1236,12 +1236,12 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   downloadedFailedWillRetry: {
     message: 'Download failed. Retrying in {minutes, number} minutes',
     context:
-      'Text that displays the status of a resource the user has downloaded when the download has failed, but Kolibri is able to automatically try the download again.',
+      'Text that displays the status of a resource the user has downloaded when the download has failed, but Laroc is able to automatically try the download again.',
   },
   downloadedFailedCanNotRetry: {
     message: 'Download failed. Unable to retry.',
     context:
-      'Text that displays the status of a resource the user has downloaded when the download has failed, and Kolibri is not able to automatically try the download again.',
+      'Text that displays the status of a resource the user has downloaded when the download has failed, and Laroc is not able to automatically try the download again.',
   },
   deviceDisconnected: {
     message: 'Your device seems to be disconnected',
@@ -1295,21 +1295,21 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
       'Displayed on a device that is using Internet Explorer 11, as part of a message encouraging the user to upgrade.',
   },
   userDevicesUsingIE11: {
-    message: 'Some users seem to be accessing Kolibri via Internet Explorer 11',
+    message: 'Some users seem to be accessing Laroc via Internet Explorer 11',
     context:
       'Displayed to an admin, where devices on their network are using Internet Explorer 11, as part of a message encouraging the user to upgrade.',
   },
   browserSupportWillBeDroppedIE11: {
     message:
-      'Please note that support for this browser will be dropped in the upcoming version, 0.17.  We recommend installing other browsers, such as Mozilla Firefox or Google Chrome, in order to continue working with Kolibri.',
+      'Please note that support for this browser will be dropped in the upcoming version, 0.17.  We recommend installing other browsers, such as Mozilla Firefox or Google Chrome, in order to continue working with Laroc.',
     context:
-      'Displayed to users of kolibri where one or more devices on the network are using Internet Explorer 11, as part of a message encouraging the user to upgrade.',
+      'Displayed to users of Laroc where one or more devices on the network are using Internet Explorer 11, as part of a message encouraging the user to upgrade.',
   },
   pythonSupportWillBeDropped: {
     message:
-      'Please note that support for Python 2.7 will be dropped in the upcoming version 0.17. Upgrade your Python version to Python 3.7+ to continue working with Kolibri. More recent versions of Python 3 are recommended.',
+      'Please note that support for Python 2.7 will be dropped in the upcoming version 0.17. Upgrade your Python version to Python 3.7+ to continue working with Laroc. More recent versions of Python 3 are recommended.',
     context:
-      'Displayed to users of kolibri where one or more devices on the network are using Python 2.7, as part of a message encouraging the user to upgrade.',
+      'Displayed to users of Laroc where one or more devices on the network are using Python 2.7, as part of a message encouraging the user to upgrade.',
   },
 
   // Content activity
@@ -1405,7 +1405,7 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   },
   changeLanguageOption: {
     message: 'Change language',
-    context: "Option to change the Kolibri interface language on the  'Change language' screen.",
+    context: "Option to change the Laroc interface language on the  'Change language' screen.",
   },
   // getting started, pre-and-post-setup-wizard misc.
 
@@ -1443,7 +1443,7 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
     context: '',
   },
   neverPayDescription: {
-    message: 'Kolibri and its library will always be free of charge',
+    message: 'Laroc and its library will always be free of charge',
     context: '',
   },
 
@@ -1453,7 +1453,7 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
     context: '',
   },
   whatLanguageDescription: {
-    message: 'Kolibri will recommend materials in the language you select.',
+    message: 'Laroc will recommend materials in the language you select.',
     context: '',
   },
   currentLanguageLabel: {
@@ -1467,7 +1467,7 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   },
   learningFacilityDescription: {
     message:
-      'A learning facility represents the location where you are installing Kolibri, such as a school, training center, or your home.',
+      'A learning facility represents the location where you are installing Laroc, such as a school, training center, or your home.',
     context: '',
   },
   joinLearningFacility: {
@@ -1532,7 +1532,7 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
   },
   addLearningMaterialsDescription: {
     message:
-      'Choose materials to use on your device. You will also be able to add more whenever you are connected to the internet or there are other Kolibris around you.',
+      'Choose materials to use on your device. You will also be able to add more whenever you are connected to the internet or there are other Larocs around you.',
     context: '',
   },
   yourLibrary: {
@@ -1545,7 +1545,7 @@ export const coreStrings = createTranslator('CommonCoreStrings', {
  * An object mapping ad hoc keys (like those to be passed to coreString()) which do not
  * conform to the expectations. Examples:
  *
- * - Misspelling of the key in coreStrings but a kolibri-constant used to access it is
+ * - Misspelling of the key in coreStrings but a Laroc-constant used to access it is
  *   spelled correctly and will not map.
  * - Keys were defined and string-froze which are not camelCase.
  * - Keys which, when _.camelCase()'ed will not result in a valid key, requiring manual mapping
@@ -1584,7 +1584,7 @@ const MetadataLookup = invert(
 
 /**
  * Return translated string for key defined in the coreStrings translator. Will map
- * ID keys generated in the kolibri-constants library to their appropriate translations
+ * ID keys generated in the Laroc-constants library to their appropriate translations
  * if available.
  *
  * @param {string} key - A key as defined in the coreStrings translator; also accepts keys

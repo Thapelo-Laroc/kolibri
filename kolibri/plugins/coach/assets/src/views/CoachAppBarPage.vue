@@ -92,13 +92,13 @@
     },
     $trs: {
       kolibriTitleMessage: {
-        message: '{ title } - Kolibri',
+        message: '{ title } - Laroc',
         context: 'DO NOT TRANSLATE\nCopy the source string.',
       },
       errorPageTitle: {
         message: 'Error',
         context:
-          "When Kolibri throws an error, this is the text that's used as the title of the error page. The description of the error follows below.",
+          "When Laroc throws an error, this is the text that's used as the title of the error page. The description of the error follows below.",
       },
     },
   };

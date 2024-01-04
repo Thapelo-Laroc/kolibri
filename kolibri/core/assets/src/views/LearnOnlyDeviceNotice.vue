@@ -20,7 +20,7 @@
       learnOnlyDeviceLabel: {
         message: 'Learn-only device',
         context:
-          'Designation for a type of Kolibri device used by learners that will not have options and features used by coaches or admins.',
+          'Designation for a type of Laroc device used by learners that will not have options and features used by coaches or admins.',
       },
       learnOnlyDeviceNotice: {
         message: 'Coach and admin features not available',
