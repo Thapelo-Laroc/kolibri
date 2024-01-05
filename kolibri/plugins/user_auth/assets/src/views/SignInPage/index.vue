@@ -89,6 +89,7 @@
           </transition>
           <div>
             <KButton
+            style="background-color: rgb(150, 0, 45);"
               class="login-btn"
               :text="$tr('nextLabel')"
               :primary="true"
@@ -122,6 +123,7 @@
           </transition>
           <div>
             <KButton
+            style="background-color: rgb(150, 0, 45);"
               class="login-btn"
               type="submit"
               :text="coreString('signInLabel')"
@@ -538,6 +540,7 @@
   .login-btn {
     width: 100%;
     margin-top: 16px;
+    background-color: rgb(150, 0, 45);
   }
 
   .suggestions-wrapper {

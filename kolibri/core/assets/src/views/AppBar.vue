@@ -1,8 +1,7 @@
 <template>
 
   <div
-    v-show="!$isPrint"
-    :style="{ backgroundColor: $themeTokens.appBar }"
+  style="background-color: rgb(150, 0, 45);"
   >
 
     <header>
@@ -284,7 +283,6 @@
   /deep/ .ui-toolbar__body {
     display: inline-block;
     margin-bottom: 12px;
-    color: red;
   }
 
   /deep/ .ui-toolbar__title {

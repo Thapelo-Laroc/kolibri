@@ -5,7 +5,7 @@
     :to="to"
     class="header-tab"
     :activeClass="activeClasses"
-    :style="{ color: $themeTokens.annotation }"
+    style="background-color: rgb(150, 0, 45);"
     :class="defaultStyles"
   >
     <div class="inner" :style="{ borderColor: this.$themeTokens.primary }">

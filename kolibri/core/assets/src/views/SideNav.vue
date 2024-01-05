@@ -175,10 +175,10 @@
           <div
             v-if="!isAppContext || !isTouchDevice || windowIsLarge"
             class="side-nav-header"
+            style="background-color: rgb(150, 0, 45);"
             :style="{
               height: topBarHeight + 'px',
               width: `${width}`, paddingTop: windowIsSmall ? '4px' : '8px',
-              backgroundColor: $themeTokens.appBar,
             }"
           >
             <KIconButton
@@ -192,9 +192,8 @@
               @click="toggleNav"
             />
             <span
-              class="side-nav-header-name"
-              :style="{ color: $themeTokens.textInverted }"
-            >{{ sideNavTitleText }}</span>
+              class="side-nav-name"
+            >Laroc</span>
           </div>
         </FocusTrap>
       </div>
@@ -556,6 +555,12 @@
     font-size: 18px;
     font-weight: bold;
     vertical-align: middle;
+  }
+
+  .side-nav-name {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
   }
 
   .side-nav-scrollable-area {

@@ -22,7 +22,7 @@
               class="kolibri-title"
               :style="[ { color: $themeBrand.secondary.v_300 }, themeConfig.signIn.titleStyle]"
             >
-              {{ logoText }}
+              Laroc Learning
             </h1>
             <p data-test="restrictedAccess">
               {{ $tr('restrictedAccess') }}
@@ -43,7 +43,7 @@
               class="kolibri-title"
               :style="[ { color: $themeBrand.secondary.v_300 }, themeConfig.signIn.titleStyle]"
             >
-              {{ logoText }}
+              Laroc Learning
             </h1>
             <p
               v-if="themeConfig.signIn.showPoweredBy"
@@ -95,7 +95,7 @@
         </div>
       </div>
       <div class="table-row">
-        <div class="footer-cell table-cell" :style="{ backgroundColor: $themeTokens.surface }">
+        <div class="footer-cell table-cell" style="background-color: rgb(39, 39, 39);">
           <LanguageSwitcherFooter />
           <div class="small-text">
             <span class="version-string">
@@ -345,6 +345,7 @@
 
   .login-btn {
     width: calc(100% - 16px);
+    background-color: rgb(150, 0, 45);
   }
 
   .create {
@@ -420,6 +421,7 @@
     margin-bottom: 0;
     font-size: 24px;
     font-weight: 100;
+    color:rgb(122, 0, 20)
   }
 
   .footer-logo {

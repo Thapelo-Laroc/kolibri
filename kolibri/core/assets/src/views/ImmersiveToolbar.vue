@@ -21,6 +21,7 @@
         >
           <!-- TODO add aria label? -->
           <KIconButton
+          style="background-color: rgb(150, 0, 45);"
             v-if="icon === 'close'"
             :ariaLabel="coreString('closeAction')"
             icon="close"
