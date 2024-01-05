@@ -284,6 +284,7 @@
   /deep/ .ui-toolbar__body {
     display: inline-block;
     margin-bottom: 12px;
+    color: red;
   }
 
   /deep/ .ui-toolbar__title {

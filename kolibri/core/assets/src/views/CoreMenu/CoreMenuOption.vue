@@ -141,7 +141,7 @@
             margin: '8px',
             backgroundColor: this.$themeBrand.primary.v_50,
             ':hover': {
-              backgroundColor: this.$themeBrand.primary.v_100,
+              backgroundColor: this.$themeBrand.secondary.v_100,
             },
             ':focus': this.$coreOutline,
           };
